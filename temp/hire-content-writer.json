@@ -1,0 +1,22 @@
+{
+  "name": "Content Writer",
+  "role": "cmo",
+  "title": "Content Writer",
+  "icon": "message-square",
+  "reportsTo": "6e2da8f4-5d72-496a-b081-0298149135c0",
+  "capabilities": "Writes LinkedIn posts, threads, and YouTube scripts. Voice: direct, practical, self-taught dev perspective.",
+  "adapterType": "opencode_local",
+  "adapterConfig": {
+    "model": "opencode/minimax-m2.5-free",
+    "instructionsFilePath": "instructions/AGENTS.md",
+    "dangerouslySkipPermissions": true
+  },
+  "runtimeConfig": {
+    "heartbeat": {
+      "enabled": true,
+      "intervalSec": 3600,
+      "wakeOnDemand": true
+    }
+  },
+  "sourceIssueId": "1e2fc782-d903-40ab-a1bf-62e751129d7a"
+}
