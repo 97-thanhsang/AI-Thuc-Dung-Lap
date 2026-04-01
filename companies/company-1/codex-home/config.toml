@@ -1,0 +1,3 @@
+[mcp_servers.pencil]
+command = "c:\\Users\\THANHSANG\\.vscode\\extensions\\highagency.pencildev-0.6.36\\out\\mcp-server-windows-x64.exe"
+args = [ "--app", "visual_studio_code" ]
